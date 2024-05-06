@@ -1,51 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=swap');
+
+:root {
+    --roxo-site: #080926;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #080926; /* Cor de fundo padrão */
+    color: white;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
+
 .container-grid {
-    width: 80vw;
-    max-width: 1400px;
+    width: 70vw;
+    max-width: 1632px;
     margin: 0 auto;
 }
 
+
 .banner {
-    height: 100vh;
-    background-image: url(imgens/Rectangle\ 53.png);
+    
+    height: 110vh;
+
+    background-image: url(imgens/imagem\ fundo.png);
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
     height: 165px;
-}
 
-header button { 
-   display: none;
 }
 
 header img {
-    width: 254px;
+    width: 250px;
 }
 
 header .container-grid {
-    height: 100px;
-  
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  
- }
-  
-nav.menu {
-    width: 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+nav.menu {
+    margin-top: 30px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between; 
 }
 
 
+
+.menu a {
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+}
+
+.container-grid button {
+    width: 200px;
+    height: 60px;
+
+    border: none;
+    border-radius: 20px;
+}
+
+ 
+.conteudo-banner .posicao-text-van{
+    margin-top: 335px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.container-grid p {
+    max-width: 400px;
+    padding: 10px; 
+    font-family: "Lexend Giga";  
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+
+#conteudo {
+  margin-left: 156px;
+  margin-right: 156px;
+  max-width: 1632px;
+  justify-content: space-between;
+  text-align: flex-start; 
+  display: flex;
+}
+
+
+h1 {
+   margin-top: 87px;
+   margin-bottom: 68px;
+   font-family: "Lexend Giga";  
+    font-weight: 700;
+    font-size: 22px;
+    
+   
+}
+
+h2 {
+    margin-bottom: 68px;
+    font-family: "Lexend Giga";  
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.conteudo-text p {
+    width: 425px;
+    font-family: "Lexend Giga";  
+    font-weight: 400;
+    font-size: 13px;
+    
+
+    
+}
+
+.conteudo img {
+    width: 500px;
+    height: 300px;
+    margin-top: 145px;
+    margin-right: 50px;
+    
+}
+
+.conteudo-text {
+    margin-top: 70px;
+    margin-left: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards img {
+    width: 430px;
+}
+
+#cards {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cards {
+    width: 400px;
+    height: 678px;
+    
+    margin: 20px;
+}
+
+.cards h3 {
+    margin-top: 29px;
+    margin-bottom: 29px;
+    font-family: "Lexend Giga";  
+    font-weight: 700;
+    font-size: 22px;
+    height: 100px;
+}
+
+.cards p {
+    margin-left: -20px;
+    display: flex;
+    align-items: baseline;
+}
+
+#cases {
+    width: 1632px;
+    height: 428px;
+
+    max-width: 1662px;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    
+    
+}
+ 
+
+
+
+
+/* #contato {
+    text-align: center;
+    
+}
+
+#contato form {
+   
+
+} */
