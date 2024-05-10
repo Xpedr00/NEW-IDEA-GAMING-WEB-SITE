@@ -31,7 +31,7 @@ html {
     
     height: 110vh;
 
-    background-image: url(imgens/imagem\ fundo.png);
+    background-image: url(imgens/Rectangle\ 53.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -44,6 +44,7 @@ header {
 
 header img {
     width: 250px;
+    
 }
 
 header .container-grid {
@@ -53,7 +54,7 @@ header .container-grid {
 }
 
 nav.menu {
-    margin-top: 30px;
+    margin-top: 15px;
     width: 1100px;
     display: flex;
     justify-content: space-between; 
@@ -66,15 +67,34 @@ nav.menu {
     font-weight: 700;
     font-size: 15px;
     color: white;
+    text-decoration: underline transparent;
+}
+
+.menu a:hover {
+    color: #311BBF;
 }
 
 .container-grid button {
-    width: 200px;
-    height: 60px;
+    width: 185px;
+    height: 40px;
+    margin-top: -10px;
 
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
+
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+
+    background-color: rgba(255, 255, 255, 0.315);
+    
 }
+
+.container-grid button:hover {
+    color: #311BBF;
+}
+
 
  
 .conteudo-banner .posicao-text-van{
@@ -147,59 +167,322 @@ h2 {
 }
 
 .cards img {
-    width: 430px;
+    width: 300px;
 }
 
 #cards {
     margin-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
+    
+    
 }
 
 .cards {
-    width: 400px;
-    height: 678px;
+    width: 350px;
+    height: 425px;
+    margin: 30px;
     
-    margin: 20px;
+
+    background-color: #00000083 ;
+    border-radius: 50px;
+
+    
+    
 }
 
 .cards h3 {
     margin-top: 29px;
-    margin-bottom: 29px;
+    margin-bottom: 18px;
     font-family: "Lexend Giga";  
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     height: 100px;
+    margin-left: 10px;
 }
 
 .cards p {
-    margin-left: -20px;
+    margin-left: 0px;
     display: flex;
     align-items: baseline;
+    font-size: 12px;
 }
 
-#cases {
+.container-cases {
     
         display: flex;
-        justify-content: center;
         align-items: center;
-        flex-direction: row;
-        height: 100vh; /* Ajuste conforme necessário para centralizar verticalmente */
-      
+        justify-content: space-around;
+        padding: 190px;
+
+        max-width: 1632px;
+        margin-top: -50px;
+
 }
 
+.container-cases img {
+     width: 275px;
+     height: 275px;
+}
+
+#contato {
+    text-align: center;
+    width: 550px;
+    height: 850px;
+    background-color: white;
+    border-radius: 60px;
+  
+    text-align: left;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 710px;
+  
+}
+
+#contato button {
+    width: 185px;
+    height: 40px;
+    margin-left: 75px;
+
+    border: none;
+    border-radius: 15px;
+
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+
+    background-color: #080926a1;
+
+}
+
+#contato button:hover {
+    color: #311BBF;
+}
+
+
+#contato h4 {
+    margin-top: 90px;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+}
+
+#contato p {
+    margin-top: 20px;
+    font-family: "Lexend Giga";
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    
+}
+
+.input-box input {
+    border-radius: 11px;
+    height: 30px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 6px #080926c0;
+}
+
+.input-boxx {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+
+    margin: 120px;
+    margin-top: -40px;
+    
+}
+
+.input-boxx input {
+    border-radius: 11px;
+    height: 30px;
+    box-shadow: 1px 1px 6px #080926c0;
+}
+
+.mensagem h5 {
+    width: 700px;
+    display: flex;
+    align-self: center;
+    font-family: "Lexend Giga";
+    font-weight: 900;
+    font-size: 22px;
+    color: yellow;
+    
+    margin-left: 245px;
+    margin-top: -450px;
+    margin-bottom: 700px;
+}
+
+.footer img {
+    width: 250px;
+    height: 106px;
+    margin-left: -30px;
+    
+}
+
+nav.footer {
+    margin-top: 30px;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer a {
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 15px;
+    color: white;
+    margin-top: 17px;
+    margin-left: -5px;
+    text-decoration: underline transparent;
+    
+}
+
+.footer a:hover {
+    color: #311BBF;
+}
+
+.footer button {
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
+#contato-conteudo {
+    text-align: center;
+    width: 700px;
+    height: 550px;
+    background-color: white;
+    border-radius: 60px;
+  
+    text-align: left;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 560px;
+  margin-top: -300px;
+}
+
+#contato-conteudo button {
+    width: 140px;
+    height: 35px;
+    margin-left: 40px;
+    margin-top: -15px;
+
+    border: none;
+    border-radius: 14px;
+
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    
+    color: white;
+
+    background-color: #080926a1;
+
+}
+
+#contato-conteudo button:hover {
+    color: #311BBF;   
+}
+
+
+#contato-conteudo h4 {
+    margin-top: 30px;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 60px;
+    color: black;
+}
+
+#contato-conteudo p {
+    margin-top: 15px;
+    font-family: "Lexend Giga";
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+
+    margin: 15px;
+    margin-top: 50px;
+    
+    
+}
+
+.input-box input {
+    border-radius: 11px;
+    height: 30px;
+    
+    box-shadow: 1px 1px 6px #080926c0;
+}
+
+.input-boxx {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lexend Giga";
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+
+    margin: 120px;
+    margin-top: -40px;
+    
+}
+
+.input-boxx input {
+    border-radius: 11px;
+    height: 30px;
+    box-shadow: 1px 1px 6px #080926c0;
+}
 
 
 
  
 
-/* #contato {
-    text-align: center;
-    
-}
 
-#contato form {
-   
 
-} */
